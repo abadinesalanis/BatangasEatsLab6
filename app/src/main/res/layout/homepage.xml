@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    tools:layout_editor_absoluteY="73dp">
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="process"
+        android:text="Back"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="384dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/header"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:text="Search"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="175dp"
+        android:layout_height="68dp"
+        android:text="Home"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="86dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whether you're going on a spontaneous or planned trip to Batangas, you should always set aside time to sample its unique, delicious cuisine."
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:text="Whether you're going on a spontaneous or planned trip to Batangas, you should always set aside time to sample its unique, delicious cuisine." />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="364dp"
+        android:layout_height="61dp"
+        app:srcCompat="@drawable/title"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="172dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/lomi"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="173dp"
+        android:layout_height="109dp"
+        app:srcCompat="@drawable/goto1"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="55dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/lominame"
+        tools:layout_editor_absoluteX="188dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="186dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/gotoname"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="394dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="77dp"
+        android:text="Served with sprinkles of chicharon, chopped pork innards, fried garlic, and sliced spring onions, this noodle dish is anything but plain and ordinary."
+        tools:layout_editor_absoluteX="192dp"
+        tools:layout_editor_absoluteY="293dp"
+        tools:text="Served with sprinkles of chicharon, chopped pork innards, fried garlic, and sliced spring onions." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="171dp"
+        android:layout_height="68dp"
+        android:text="served with steaming hot broth, warm enough to wake the senses in any given weather."
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="426dp"
+        tools:text="served with steaming hot broth, warm enough to wake the senses in any given weather." />
+
+</android.support.constraint.ConstraintLayout>
